@@ -30,7 +30,6 @@ int hsh(info_t *info, char **av)
 			_putchar('\n');
 		free_info(info, 0);
 	}
-
 	write_history(info);
 	free_info(info, 1);
 	if (!interactive(info) && info->status)
